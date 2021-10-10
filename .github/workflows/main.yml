@@ -1,10 +1,6 @@
-name: CI/CD
+name: Main CI/CD
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -37,3 +33,10 @@ jobs:
       
     - name: Build
       run: npm run build
+
+    - name: Deploy master to gh-pages
+      if: github.ref == 'refs/heads/master'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
