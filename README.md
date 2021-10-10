@@ -1,3 +1,10 @@
+# gevrai.github.io/ShackChose
+
+![CI/CD](https://github.com/gevrai/ShackChose/workflows/CI/CD/badge.svg)
+
+[![codecov](https://codecov.io/gh/gevrai/ShackChose/branch/master/graph/badge.svg)](https://codecov.io/gh/gevrai/ShackChose/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
