@@ -1,17 +1,5 @@
 :root {
-  background-color: var(--background-color);
-  --background-color: rgb(0, 18, 26);
-  --main-text-color: rgb(233, 242, 192);
-
-  --main-color: rgb(41, 102, 163);
-  --main-color-dark: rgb(33, 88, 143);
-  --main-color-pale: rgb(42, 158, 221);
-
-  --secondary-color: rgb(255, 166, 0);
-  --secondary-color-pale: rgb(255, 191, 73);
-
-  --ternary-color: rgb(255, 91, 85);
-  --ternary-color-pale: rgb(253, 189, 181);
+  background-color: rgb(0,18,26);
 }
 
 * {
