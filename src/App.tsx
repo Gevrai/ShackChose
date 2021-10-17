@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route, } from 'react-router-dom';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import theme from './config/Theme';
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles theme={theme} />
-      <BrowserRouter >
+      <HashRouter >
         <OuterWrapper>
           <NavBar />
 
@@ -27,7 +27,7 @@ function App() {
 
           <Footer />
         </OuterWrapper>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }

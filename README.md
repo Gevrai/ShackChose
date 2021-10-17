@@ -1,4 +1,4 @@
-# gevrai.github.io/ShackChose
+# [ShackChose on github pages](https://gevrai.github.io/ShackChose)
 
 ![CI/CD](https://github.com/gevrai/ShackChose/workflows/CI/CD/badge.svg)
 
