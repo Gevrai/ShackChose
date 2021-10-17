@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/ShackChose/static/js/main.c512a8b7.chunk.js",
-    "main.js.map": "/ShackChose/static/js/main.c512a8b7.chunk.js.map",
+    "main.js": "/ShackChose/static/js/main.48639dec.chunk.js",
+    "main.js.map": "/ShackChose/static/js/main.48639dec.chunk.js.map",
     "runtime-main.js": "/ShackChose/static/js/runtime-main.0e58b8e0.js",
     "runtime-main.js.map": "/ShackChose/static/js/runtime-main.0e58b8e0.js.map",
-    "static/js/2.2433fdca.chunk.js": "/ShackChose/static/js/2.2433fdca.chunk.js",
-    "static/js/2.2433fdca.chunk.js.map": "/ShackChose/static/js/2.2433fdca.chunk.js.map",
+    "static/js/2.bae9af39.chunk.js": "/ShackChose/static/js/2.bae9af39.chunk.js",
+    "static/js/2.bae9af39.chunk.js.map": "/ShackChose/static/js/2.bae9af39.chunk.js.map",
     "static/js/3.f0d43d38.chunk.js": "/ShackChose/static/js/3.f0d43d38.chunk.js",
     "static/js/3.f0d43d38.chunk.js.map": "/ShackChose/static/js/3.f0d43d38.chunk.js.map",
     "index.html": "/ShackChose/index.html",
-    "static/js/2.2433fdca.chunk.js.LICENSE.txt": "/ShackChose/static/js/2.2433fdca.chunk.js.LICENSE.txt",
+    "static/js/2.bae9af39.chunk.js.LICENSE.txt": "/ShackChose/static/js/2.bae9af39.chunk.js.LICENSE.txt",
     "static/media/gmap-mock.2062a269.png": "/ShackChose/static/media/gmap-mock.2062a269.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0e58b8e0.js",
-    "static/js/2.2433fdca.chunk.js",
-    "static/js/main.c512a8b7.chunk.js"
+    "static/js/2.bae9af39.chunk.js",
+    "static/js/main.48639dec.chunk.js"
   ]
 }
