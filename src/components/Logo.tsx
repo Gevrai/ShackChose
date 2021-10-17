@@ -1,26 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
-import { theme } from '../globals';
 
-interface Props { }
+interface Props {
+    scale?: number
+}
 
-const StyledLink = styled(Link)<Props>`
-    color: ${theme.colors.mainText};
-    justify-self: flex-start;
-    justify-content: flex-start;
-    margin-left: 20px;
-    cursor: pointer;
+const StyledLink = styled(Link) <{ p: Props }>`
+    ${({p}) => p.scale && `transform: scale(${p.scale});`}
+    color: ${p => p.theme.colors.mainText};
     text-decoration: none;
-    padding-right: 50px;
+    cursor: pointer;
 `
 
 export const Logo: React.FC<Props> = (p: Props) => {
-	return (
-		<StyledLink to="/">
-			<h2>shack chose</h2>
-			<p>atelier boutique <b>éphémère</b></p>
-		</StyledLink>
-	)
+    return (
+        <StyledLink p={p} to="/">
+            <h2>shack chose</h2>
+            <p>atelier boutique <b>éphémère</b></p>
+        </StyledLink>
+    )
 }
 

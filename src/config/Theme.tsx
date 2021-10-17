@@ -16,14 +16,4 @@ export const theme = {
 	}
 }
 
-export enum Device {
-	Mobile = 700,
-	Desktop = 2048
-}
-
-export function mediaScreen(d: Device): string {
-	return `@media screen and (max-width: ${d.valueOf()}px)`
-}
-
-export const onMobile = mediaScreen(Device.Mobile)
-
+export default theme;
