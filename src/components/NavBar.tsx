@@ -1,10 +1,12 @@
 import React, { useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { Logo } from './Logo';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { onMobile } from '../config/MediaScreenThresholds';
 import useOutsideClickDetector from '../hooks/clickOutside';
+
+import { Logo } from './Logo';
 
 const navBarHeight = 90;
 

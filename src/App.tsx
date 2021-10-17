@@ -60,6 +60,7 @@ const GlobalStyles = createGlobalStyle<{ theme: typeof theme }>`
   // HTML root
   :root {
     background-color: ${p => p.theme.colors.background};
+    color: ${p => p.theme.colors.mainText};
     height: 100%;
     width: 100%;
   }

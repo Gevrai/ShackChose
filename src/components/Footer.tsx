@@ -7,7 +7,6 @@ interface Props { }
 
 const FooterWrapper = styled.footer`
 	background-color: ${p => p.theme.colors.primaryDark};
-    color: ${p => p.theme.colors.mainText};
 	display: flex;
 	justify-content: space-between;
 	margin-top: 30px;

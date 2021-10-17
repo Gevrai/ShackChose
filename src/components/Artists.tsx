@@ -13,7 +13,7 @@ interface ArtistInfo {
 	galleryRoute: string
 }
 
-const ArtistsInfo: ArtistInfo[] = [
+export const ArtistsInfo: ArtistInfo[] = [
 	{
 		surname: "Sylvie",
 		name: "Jodoin",
